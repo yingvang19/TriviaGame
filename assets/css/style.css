@@ -1,1 +1,90 @@
+body {
+    background-image: url('../images/maintitle.jpg');
+    font-family: 'Luckiest Guy', cursive;
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
 
+}
+
+h1 ,h2{
+    font-size: 60px;
+    color: orange;
+}
+
+#container {
+ 
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.row-one, .row-time{
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    margin-top: -2%;
+    font-size: 40px;
+    padding: 2%;
+    color: red;
+}
+
+.row-two {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+.wrong-box {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+label {
+    color: orange;
+}
+
+#answer-screen {
+    background: #ffffff;
+    display: none;
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+#timer {
+    display: none;
+    background: #ffffff;
+    width: 35%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+#time-remain {
+    font-size: 60px;
+    padding: 2%;
+    color: red;
+}
+
+body .container {
+    background: #ffffff;
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.questions {
+    font-size: 25px;
+}
