@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marvel Trivia Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="container">
+        <div class="row-one">
+            
+            <h1>Marvel Trivia!</h1>
+            <hr />
+            <p>You have 60 seconds</p>
+            <br />
+           
+            <button type="button" id="start-button" >Click Start</button>
+        </div>
+    </div>
+
+    <div id="answer-screen">
+        <div class="row-two">
+            <h2>Results</h2>
+            <hr />
+            <p id="correct-screen">Correct Answers: </p>
+            <p id="wrong-screen">Wrong Answers: </p>
+        </div>
+    </div>
+
+
+    <div id="timer">
+        <div class="wrongBox">
+            <h2 class="up">Times Up! Your Results</h2>
+            <hr />
+            <p id="correct-timer">Correct Answers: </p>
+            <p id="wrong-timer">Wrong Answers: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Marvel Trivia!</h2>
+        <div class="row-time">Time Remaining:
+            <div id="time-remain">--</div>
+        </div>
+
+        <div class="questions">
+            <button type="button" id="submit-button">Submit</button>
+        
+        </div>
+
+     
+    </div>
+    <script src="assets/javascript/app.js "></script>
+</body>
+
+</html>
